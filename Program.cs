@@ -21,6 +21,11 @@ else
     }
 }
 
+if(int.IsNegative(age))
+{
+    Console.WriteLine("Youre not fooling me");
+}
+
 
 
 
