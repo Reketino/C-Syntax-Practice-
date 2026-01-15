@@ -2,7 +2,7 @@
 Console.WriteLine("Hey what's ur name");
 string? name = Console.ReadLine();
 
-if(string.IsNullOrWhiteSpace(name)){ name = "Unkown"; }
+if(string.IsNullOrWhiteSpace(name)) { name = "Unkown"; }
 
 Console.WriteLine($"Hey how is it going {name}");
 
